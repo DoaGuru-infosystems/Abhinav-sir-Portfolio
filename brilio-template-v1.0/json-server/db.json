@@ -1,0 +1,121 @@
+{
+  "portfolio": [
+    {
+      "id": 1,
+      "title": "Multi-TB Spark ETL on Cloudera CDP 7.1",
+      "image": "/img/case-1.jpg",
+      "categories": ["Big Data", "Spark", "Cloudera CDP"],
+      "projectLink": "/portfolio-single"
+    },
+    {
+      "id": 2,
+      "title": "Bulk Medical Claims Pipeline & HBase Architecture",
+      "image": "/img/case-2.jpg",
+      "categories": ["Hadoop", "HBase", "Healthcare"],
+      "projectLink": "/portfolio-single"
+    },
+    {
+      "id": 3,
+      "title": "Cloudera Enterprise Upgrades & Security Governance",
+      "image": "/img/case-3.jpg",
+      "categories": ["Cloudera", "Security", "Architecture"],
+      "projectLink": "/portfolio-single"
+    },
+    {
+      "id": 4,
+      "title": "Hybrid Cloud Integration & CI/CD Automation",
+      "image": "/img/case-4.jpg",
+      "categories": ["GCP", "DevOps", "CI/CD"],
+      "projectLink": "/portfolio-single"
+    }
+  ],
+  "singlePortfolio": {
+    "title": "Multi-TB Spark ETL on Cloudera CDP 7.1",
+    "description": "Architected and owned end-to-end Spark (Scala) ETL pipelines on CDH 7.1 / CDP clusters handling ingestion, transformation, and HDFS persistence at multi-TB scale daily for Finance Bank. Tuned YARN queues and Spark executor memory/cores, improving job throughput by ~35% while eliminating GC-related failures.",
+    "task": "High-Throughput Big Data Pipeline & YARN Tuning",
+    "categories": ["Big Data", "Spark", "Cloudera CDP"],
+    "date": "2021 – 2025",
+    "role": ["Lead Consultant", "Data Architect"],
+    "client": "Finance Bank (via HCLTech)",
+    "categoryYear": "Spark & CDH 7.1 / 2021 – 2025",
+    "liveSite": "https://github.com",
+    "gallery": [
+      "/img/case-1.jpg",
+      "/img/case-2.jpg",
+      "/img/case-3.jpg",
+      "/img/case-4.jpg"
+    ]
+  },
+  "skills": {
+    "title": "Skills & Technical Expertise",
+    "items": [
+      {
+        "icon": "bi bi-hdd-network",
+        "value": "Cloudera / CDP",
+        "label": "CDH 5.x, 6.x, 7.1 (CDP)",
+        "description": "HUE, Cloudera Manager, Ranger, Knox, Impala, Kudu, Navigator, HDFS tuning, and YARN capacity scheduling."
+      },
+      {
+        "icon": "bi bi-cpu",
+        "value": "Apache Spark",
+        "label": "Distributed Processing",
+        "description": "Spark 2.x/3.x with Scala, Java & Python. Partition pruning, broadcast joins, executor memory optimization, and zero GC failures."
+      },
+      {
+        "icon": "bi bi-database-check",
+        "value": "Big Data Stack",
+        "label": "ETL & Storage",
+        "description": "Hive (ORC vectorization & CBO), HBase real-time schema design, Sqoop ingestion, Oozie coordinators, and Kafka."
+      },
+      {
+        "icon": "bi bi-cloud-check",
+        "value": "Cloud & DevOps",
+        "label": "GCP & CI/CD",
+        "description": "GCP BigQuery & DataFactory hybrid cloud pipelines, TeamCity, IBM uDeploy, Linux (RHEL/Ubuntu), Maven, and Spring Boot."
+      }
+    ],
+    "skillsProgress": [
+      { "title": "Cloudera CDH / CDP (5.x, 6.x, 7.1)", "progress": 96 },
+      { "title": "Apache Spark (Scala / Java / Python)", "progress": 95 },
+      { "title": "Hadoop Ecosystem (HDFS, YARN, Hive, Sqoop)", "progress": 95 },
+      { "title": "HBase & Impala Low-Latency Querying", "progress": 90 },
+      { "title": "Apache Ranger & Data Lake Governance", "progress": 92 },
+      { "title": "GCP BigQuery & Cloud Integration", "progress": 85 },
+      { "title": "CI/CD (TeamCity, IBM uDeploy) & Linux", "progress": 88 }
+    ]
+  },
+  "awards": [
+    {
+      "id": 1,
+      "title": "CDH 5.x → 6.x → 7.1 (CDP) Upgrades",
+      "year": "2018 - 2024",
+      "award": "Enterprise Architecture Upgrade",
+      "description": "Hands-on contributor to two major CDH upgrades: metastore migration, Sentry-to-Ranger policy transfer, and Spark API compatibility.",
+      "link": "/about"
+    },
+    {
+      "id": 2,
+      "title": "35% Spark Throughput Gain & Zero OOMs",
+      "year": "2023",
+      "award": "Cluster Optimization",
+      "description": "YARN capacity scheduling and Spark memory tuning on CDH 7.1 clusters eliminated OOM failures and reduced SLA breach incidents to zero.",
+      "link": "/about"
+    },
+    {
+      "id": 3,
+      "title": "45% ETL Runtime Reduction on Hive ORC",
+      "year": "2020",
+      "award": "Performance Engineering",
+      "description": "Leveraged Hive CBO, ORC vectorization, and bloom filters on CDH 6.x clusters at Quest Diagnostics to dramatically cut processing time.",
+      "link": "/about"
+    },
+    {
+      "id": 4,
+      "title": "40% Deployment Cycle Reduction with CI/CD",
+      "year": "2022",
+      "award": "DevOps & Automation",
+      "description": "Designed and implemented TeamCity + IBM uDeploy CI/CD pipelines standardizing multi-environment releases.",
+      "link": "/portfolio"
+    }
+  ]
+}
