@@ -5,7 +5,7 @@ import Header from '../components/Header/Header';
 import Breadcrumb from '../components/Breadcrumb/BreadcrumbOne';
 import Shape from '../components/Shape/Shape';
 import Experiences from '../components/Experiences/Experiences';
-import AnimatedImage from '../components/AnimatedImage/AnimatedImage';
+
 import Skills from '../components/Skills/Skills';
 import FAQ from '../components/FAQ/FAQ';
 import CTA from '../components/CTA/CTAOne';
