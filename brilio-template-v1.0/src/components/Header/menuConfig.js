@@ -6,7 +6,7 @@ export const menuItems = [
 ];
 
 export const socialLinks = [
-	{ label: "LinkedIn", href: "https://linkedin.com" },
+	{ label: "LinkedIn", href: "https://www.linkedin.com/in/abhinavpndy/" },
 	// { label: "GitHub", href: "https://github.com" },
 	{ label: "Email", href: "mailto:abhipan1987@gmail.com" },
 ];

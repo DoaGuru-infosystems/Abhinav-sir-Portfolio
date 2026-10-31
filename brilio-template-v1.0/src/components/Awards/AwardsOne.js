@@ -28,7 +28,7 @@ const AwardsOne = () => {
 										<strong>{award.year}</strong> — {award.award}
 									</span>
 									{award.description && (
-										<p className="small text-muted mt-2 mb-0">{award.description}</p>
+										<p style={{color:"#909dac"}} className="small mt-2 mb-0">{award.description}</p>
 									)}
 								</div>
 								{/* Award Button */}

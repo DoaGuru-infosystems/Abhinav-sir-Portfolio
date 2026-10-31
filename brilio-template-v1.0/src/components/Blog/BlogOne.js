@@ -10,7 +10,7 @@ const BlogOne = () => {
         <div key={blog.id} className="col-12 col-md-6 col-lg-4 item">
           <div className="card h-100 p-4 border rounded-4 shadow-sm minimal-project-card d-flex flex-column">
             <div className="d-flex justify-content-between align-items-center mb-3">
-              <span className="small text-muted">
+              <span style={{color:"#909dac"}}   className="small">
                 <i className="bi bi-calendar3 me-1"></i>{blog.date}
               </span>
               <span className="badge small outlined rounded-pill px-2 py-1">
