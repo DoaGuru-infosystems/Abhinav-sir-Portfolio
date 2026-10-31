@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 
 // Importing all the themes
 import ThemeOne from "../themes/theme-one";
@@ -21,7 +21,7 @@ const MyRoutes = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog-single" element={<BlogSingle />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<ThemeOne />} />
+        <Route path="/*" element={<Navigate to="/" replace/>}/>
       </Routes>
     </Router>
   );
