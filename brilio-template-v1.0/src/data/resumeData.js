@@ -17,8 +17,8 @@ export const resumeData = {
       { name: "Hindi", level: "Native" }
     ],
     socials: [
-      { name: "LinkedIn", link: "https://linkedin.com", icon: "bi bi-linkedin" },
-      { name: "GitHub", link: "https://github.com", icon: "bi bi-github" },
+      { name: "LinkedIn", link: "https://www.linkedin.com/in/abhinavpndy/", icon: "bi bi-linkedin" },
+      // { name: "GitHub", link: "https://github.com", icon: "bi bi-github" },
       { name: "Email", link: "mailto:abhipan1987@gmail.com", icon: "bi bi-envelope" }
     ]
   },
