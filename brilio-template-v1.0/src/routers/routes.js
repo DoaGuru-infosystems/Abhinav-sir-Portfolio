@@ -22,8 +22,6 @@ const MyRoutes = () => {
         <Route path="/blog-single" element={<BlogSingle />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<ThemeOne />} />
-
-
       </Routes>
     </Router>
   );
